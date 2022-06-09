@@ -1,0 +1,11 @@
+nohup: ignoring input
+Epoch 0100: train_loss=558.55469
+Epoch 0200: train_loss=541.61615
+Epoch 0300: train_loss=532.93842
+Epoch 0400: train_loss=528.09943
+Epoch 0500: train_loss=524.57764
+Epoch 0600: train_loss=522.16266
+Epoch 0700: train_loss=519.80786
+Epoch 0800: train_loss=518.51892
+Epoch 0900: train_loss=517.14575
+Epoch 1000: train_loss=516.03424
