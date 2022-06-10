@@ -55,6 +55,6 @@ for lg_beta in range(11):
         logs.append([lg_beta, dis] + list(eval_res))
 
 df = pd.DataFrame(logs, columns=['log_beta', 'dis'] + eval_col_name)
-df.to_csv('./res/{}/FairDisCo.csv'.format(dataset), index=False)
+df.to_csv('./res/FairDisCo_{}.csv'.format(dataset), index=False)
 
 print('FairDisCo {} finish'.format(dataset))
