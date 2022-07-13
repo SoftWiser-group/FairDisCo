@@ -14,7 +14,7 @@ parser.add_argument('--data', type=str, default='')
 args = parser.parse_args()
 device = torch.device('cpu') if args.cuda < 0 else torch.device('cuda', args.cuda)
 
-beta = 10**8
+beta = 10**7
 
 if args.data == 'color':
     # color
